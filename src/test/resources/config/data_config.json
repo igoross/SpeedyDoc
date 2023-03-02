@@ -1,7 +1,19 @@
 {
-  "baseUrl": "http://178.222.242.32/",
-  "validUsername": "milanperovic@outlook.com",
-  "validPassword": "kljucanica",
-  "invalidUsername": "nestodrugo",
-  "invalidPassword": "kljucanica"
+  "envs": {
+    "dev": "http://178.222.242.32/",
+    "qa": "",
+    "staging": "",
+    "prod": ""
+  },
+  "users": {
+    "validUser": {
+      "username": "milanperovic@outlook.com",
+      "password": "kljucanica",
+      "DoB": ""
+    },
+    "invalidUser": {
+      "username": "nestodrugo",
+      "password": "kljucanica"
+    }
+  }
 }

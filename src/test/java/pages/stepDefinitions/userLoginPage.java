@@ -2,6 +2,7 @@ package pages.stepDefinitions;
 
 
 import helpers.getConfig;
+import io.cucumber.java.Before;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -21,13 +22,15 @@ import static helpers.BaseHelperDriver.getDriver;
 
 
 public class userLoginPage {
-    private final getConfig config = new getConfig();
+    private getConfig config;
 
+    @Before
+            public void setConfig(){
+        config = new getConfig();
+    }
 
     WebDriver driver = getDriver();
 
-    public userLoginPage() throws FileNotFoundException {
-    }
 
 
     @Given("User is on the login page")
