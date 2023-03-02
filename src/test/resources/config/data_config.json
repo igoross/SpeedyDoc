@@ -1,0 +1,7 @@
+{
+  "baseUrl": "http://178.222.242.32/",
+  "validUsername": "milanperovic@outlook.com",
+  "validPassword": "kljucanica",
+  "invalidUsername": "nestodrugo",
+  "invalidPassword": "kljucanica"
+}
