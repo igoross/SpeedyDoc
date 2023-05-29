@@ -1,0 +1,19 @@
+{
+  "envs": {
+    "dev": "https://growth.deel.training/dev/salary-insights",
+    "qa": "",
+    "staging": "",
+    "prod": ""
+  },
+  "users": {
+    "validUser": {
+      "username": "milanperovic@outlook.com",
+      "password": "kljucanica",
+      "DoB": ""
+    },
+    "invalidUser": {
+      "username": "nestodrugo",
+      "password": "kljucanica"
+    }
+  }
+}
