@@ -1,0 +1,8 @@
+{
+  "envs": {
+    "dev": "https://growth.deel.training/dev/salary-insights",
+    "qa": "",
+    "staging": "",
+    "prod": ""
+  }
+}
